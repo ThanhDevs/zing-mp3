@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="brand">
+      <a href="#">
+        <img src="logo-mp-3.svg" alt="logo">
+      </a>
+    </div>
+    <!-- /end logo -->
+    
+    <div class="header-search">
+      <form id="form-search">
+        <a href="#" class="search-btn">
+          <i class="fa fa-search"></i>
+        </a>
+
+        <input type="text" placeholder="Nhập tên bài hát, ca sĩ hoặc mv…">
+      </form>
+    </div> <!-- /.header-search -->
+    
+    <div class="header-nav">
+      <ul>
+        <li class="upload"><a href="#"><i class="fa fa-upload "></i></a></li>
+        <li class="bell"><a href="#"><i class="fa fa-bell-o "></i></a></li>
+        <li class="avt"><a href="#"><img src="9b6a713738e7883b0797140e2147b66c.jpg" alt=""></a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+</body>
+</html>
+
+
+<style>
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  .container {
+    width: 1026px;
+    margin: auto;
+  }
+
+  header .container {
+    display: flex;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+  }
+
+  .brand {
+    max-width: 100px;
+  }
+
+  .header-nav li {
+      list-style: none;
+      float: left;
+  }
+
+  .header-nav li {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      text-align: center;
+      margin: 0 0 0 13px;
+
+  }
+
+  .header-nav li a,
+   .header-nav li a i {
+      display: block;
+      line-height: 40px;
+      color: #3a3a3a;
+      text-decoration: none;
+      font-size: 13px;
+  }
+
+  #form-search {
+    width: 538px;
+    position: relative;
+  }
+
+  #form-search .search-btn {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      text-decoration: none;
+      top: 1px;
+      font-size: 20px;
+      font-weight: normal;
+  }
+
+  #form-search .search-btn i {
+      display: block;
+      line-height: 40px;
+  }
+
+  #form-search input {
+      line-height: 40px;
+      padding: 0 15px 0 40px;
+      width: 100%;
+      border: 1px solid #dbd6d6a6;
+      outline: none;
+      border-radius: 30px;
+      transition: all .3s ease;
+  }
+
+  #form-search input:focus {
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
+  }
+</style>
